@@ -1,4 +1,30 @@
-body,
-html{
-  font-family: "Roboto", sans-serif;
+html,body{
+  font-family: "Rubik","Roboto", sans-serif;
+}
+
+.global-container{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: darkslategray;
+}
+.login-form{
+  border-radius: 20px;
+  background-color: aliceblue;
+  font-size: 18px;
+  width: 350px;
+}
+.registrarse {
+  margin-top: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.form-group{
+  margin-bottom: 5px;
+}
+
+.formulario{
+  margin-top: 20px;
 }
