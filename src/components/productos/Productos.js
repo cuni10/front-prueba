@@ -5,15 +5,15 @@ import Sidebar from "../layout/Sidebar";
 const Productos = () => {
     return ( 
 
-        <div className="productos vh-100">
+        <div className="container-fluid">
             <Barra/>
             <div className="row">
-                <div className="col sidebar">
+                <div className="col bg-dark">
                     <Sidebar/>
                 </div>
-                <main className="col-10 main">
+                <div className="col-10">
                     <h1>Main</h1>
-                </main>
+                </div>
             </div>
         </div>
      );

@@ -10,7 +10,7 @@ const Categorias = () => {
     ]
     return ( 
 
-        <ul className="listado nav flex-column text-center">
+        <ul className="nav flex-column">
             {categorias.map(categoria =>(
                 <Categoria
                     categoria={categoria}

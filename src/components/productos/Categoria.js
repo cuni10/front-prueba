@@ -2,7 +2,7 @@ import React from 'react';
 
 const Categoria = ({categoria}) => {
     return ( 
-        <li className="">
+        <li className="nav-item">
             <button
                 type="button"
                 className="btn btn-light"
