@@ -7,11 +7,11 @@ const Productos = () => {
 
         <div className="container-fluid">
             <Barra/>
-            <div className="row">
-                <div className="col bg-dark">
+            <div className="row vh-100">
+                <div className="col sidebar">
                     <Sidebar/>
                 </div>
-                <div className="col-10">
+                <div className="col-10 main">
                     <h1>Main</h1>
                 </div>
             </div>
