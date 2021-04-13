@@ -10,7 +10,7 @@ const Categorias = () => {
     ]
     return ( 
 
-        <ul className="nav flex-column">
+        <ul className="nav nav-pills flex-column mb-auto">
             {categorias.map(categoria =>(
                 <Categoria
                     categoria={categoria}

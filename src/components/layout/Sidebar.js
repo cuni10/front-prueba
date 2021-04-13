@@ -4,7 +4,8 @@ import Categorias from '../productos/Categorias';
 const SideBar = () => {
     return ( 
         <aside className="">
-            <h1 className="nav-brand">Categorias</h1>
+            <h1 className="nav-brand text-center">Categorias</h1>
+            <hr/>
             <Categorias/>
         </aside>
      );

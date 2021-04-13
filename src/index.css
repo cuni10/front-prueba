@@ -42,8 +42,17 @@ html,body{
 .sidebar{
   background-color: darkslategray;
   color: aliceblue;
+  padding-top: 10px;
 }
 
 .main {
   background-color: aliceblue;
+  padding-top: 10px;
+}
+
+.categoria{
+  background-color: aliceblue;
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
 }

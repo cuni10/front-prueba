@@ -2,10 +2,10 @@ import React from 'react';
 
 const Categoria = ({categoria}) => {
     return ( 
-        <li className="nav-item">
+        <li className="m-2">
             <button
                 type="button"
-                className="btn btn-light"
+                className="btn categoria w-100"
             >{categoria.name}</button>
         </li>
      );
