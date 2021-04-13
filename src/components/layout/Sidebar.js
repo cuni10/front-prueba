@@ -1,11 +1,11 @@
 import React from 'react';
-import ListadoProductos from '../productos/ListadoProductos';
+import Categorias from '../productos/Categorias';
 
 const SideBar = () => {
     return ( 
         <aside className="">
             <h1 className="">Categorias</h1>
-            <ListadoProductos/>
+            <Categorias/>
         </aside>
      );
 }

@@ -1,14 +1,14 @@
 import React from 'react';
 
-const Producto = ({producto}) => {
+const Categoria = ({categoria}) => {
     return ( 
-        <li className="nav-item">
+        <li className="">
             <button
                 type="button"
                 className="btn btn-light"
-            >{producto.name}</button>
+            >{categoria.name}</button>
         </li>
      );
 }
  
-export default Producto;
+export default Categoria;

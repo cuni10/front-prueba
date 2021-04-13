@@ -1,9 +1,9 @@
 import React from 'react';
-import Producto from './Producto';
+import Categoria from './Categoria';
 
-const ListadoProductos = () => {
+const Categorias = () => {
 
-    const productos =[
+    const categorias =[
         {name:"Accion"},
         {name:"Suspenso"},
         {name:"Aventura"}
@@ -11,9 +11,9 @@ const ListadoProductos = () => {
     return ( 
 
         <ul className="listado nav flex-column text-center">
-            {productos.map(producto =>(
-                <Producto
-                    producto={producto}
+            {categorias.map(categoria =>(
+                <Categoria
+                    categoria={categoria}
                 />
             ))}
             
@@ -21,4 +21,4 @@ const ListadoProductos = () => {
      );
 }
  
-export default ListadoProductos;
+export default Categorias;

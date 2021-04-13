@@ -5,7 +5,7 @@ import Sidebar from "../layout/Sidebar";
 const Productos = () => {
     return ( 
 
-        <div className="productos">
+        <div className="productos vh-100">
             <Barra/>
             <div className="row">
                 <div className="col sidebar">
