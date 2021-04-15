@@ -56,13 +56,9 @@ html,body{
   font-size: 18px;
 }
 
-.productitos{
-  padding: 0;
-  list-style:none;
-}
-
 .producto{
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 400px;
+  width: 300px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
 }

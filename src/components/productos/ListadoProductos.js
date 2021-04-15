@@ -2,10 +2,10 @@ import React, { Fragment } from 'react';
 import Producto from "./Producto";
 
 const productos = [
-    {name:"Garrys Mod",stock: true ,price:"300"},
-    {name:"Grand Theft Auto 5",stock: false ,price:"500",img:"https://i.ibb.co/8dJCY4Y/Car-tula-GTA-V.jpg"},
-    {name:"League of Legends",stock: true ,price:"0"},
-    {name:"Counter Strike: Global Ofensive",stock: true ,price:"0"},
+    {name:"Garrys Mod",stock: true ,price:"300",img:"https://static-cdn.jtvnw.net/ttv-boxart/Garry%27s%20Mod-144x192.jpg"},
+    {name:"Grand Theft Auto 5",stock: false ,price:"500",img:"https://static-cdn.jtvnw.net/ttv-boxart/Grand%20Theft%20Auto%20V-285x380.jpg"},
+    {name:"League of Legends",stock: true ,price:"0",img:"https://static-cdn.jtvnw.net/ttv-boxart/League%20of%20Legends-285x380.jpg"},
+    {name:"Counter Strike: Global Ofensive",stock: true ,price:"0",img:"https://static-cdn.jtvnw.net/ttv-boxart/./Counter-Strike:%20Global%20Offensive-285x380.jpg"},
 
 ]
 
@@ -17,14 +17,14 @@ const ListadoProductos = () => {
             {productos.length === 0
                 ?(<h2>No hay productos</h2>)
                 :(
-                    <div className="container-fluid">
-                        <ul className="row row-cols-2 justify-content-center productitos">
+                    <div className="container mb-5 mt-5">
+                        <div className="row justify-content-center productitos">
                         {productos.map(producto =>(
                             <Producto
                                     producto={producto}
                             />
                         ))} 
-                        </ul>
+                        </div>
                     </div>
                 )
             }   
