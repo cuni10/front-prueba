@@ -1,6 +1,7 @@
 import React from 'react';
 import Barra from '../layout/Barra';
 import Sidebar from "../layout/Sidebar";
+import ListadoProductos from './ListadoProductos';
 
 const Productos = () => {
     return ( 
@@ -12,7 +13,8 @@ const Productos = () => {
                     <Sidebar/>
                 </div>
                 <div className="col-10 main">
-                    <h1>Main</h1>
+                    <h1 className="text-center">Productos</h1>
+                    <ListadoProductos/>
                 </div>
             </div>
         </div>
