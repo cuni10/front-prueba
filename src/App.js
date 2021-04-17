@@ -6,15 +6,19 @@ import Login from "./components/auth/Login";
 import Register from "./components/auth/Register";
 import Productos from "./components/productos/Productos";
 
+import ProductoState from "./context/ProductosState";
+
 function App() {
   return (
-    <Router>
-      <Switch>
-        <Route exact path="/login" component={Login}/>
-        <Route exact path="/register" component={Register}/>
-        <Route exact path="/productos" component={Productos}/>
-      </Switch>
-    </Router>
+    <ProductoState>
+      <Router>
+        <Switch>
+          <Route exact path="/login" component={Login}/>
+          <Route exact path="/register" component={Register}/>
+          <Route exact path="/productos" component={Productos}/>
+        </Switch>
+      </Router>
+    </ProductoState>
   );
 }
 
