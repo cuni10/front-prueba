@@ -15,7 +15,7 @@ const Barra = () => {
                     <h1 className="navbar-brand">Juegos.com</h1>
                     <form className="d-flex ">
                         <input type="search" className="form-control me-2" placeholder="¿Que Buscas?"/>
-                        <button class="btn btn-outline-light" type="submit">Buscar</button>
+                        <button className="btn btn-outline-light" type="submit">Buscar</button>
                     </form>
                     {
                         login === true

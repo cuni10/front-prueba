@@ -5,7 +5,7 @@ const Producto = ({producto}) => {
     const {name,stock,price,img} = producto;
 
     return ( 
-        <Fragment className="col-md-4 ">
+        <Fragment>
             <div className="card align-items-center p-2 text-center producto ">
                 <img src={img} className="w-50 rounded" alt="..."></img>
                 <div className="card-body ">

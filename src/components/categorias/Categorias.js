@@ -1,18 +1,19 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import ProductoContext from '../../context/ProductosContext';
 import Categoria from './Categoria';
 
 const Categorias = () => {
 
-    const categorias =[
-        {name:"Accion"},
-        {name:"Suspenso"},
-        {name:"Aventura"}
-    ]
+    const productosContext = useContext(ProductoContext);
+    
+    const {categorias} = productosContext;
+
     return ( 
 
         <ul className="nav nav-pills flex-column mb-auto">
             {categorias.map(categoria =>(
                 <Categoria
+                    key={categoria.id}
                     categoria={categoria}
                 />
             ))}
