@@ -8,11 +8,11 @@ const Productos = () => {
 
         <div className="container-fluid">
             <Barra/>
-            <div className="row vh-100">
-                <div className="col sidebar">
+            <div className="row">
+                <div className="col-xxl-2 sidebar">
                     <Sidebar/>
                 </div>
-                <div className="col-10 main">
+                <div className="col main">
                     <h1 className="text-center">Productos</h1>
                     <ListadoProductos/>
                 </div>
