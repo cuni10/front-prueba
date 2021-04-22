@@ -6,9 +6,9 @@ import ListadoProductos from './ListadoProductos';
 const Productos = () => {
     return ( 
 
-        <div className="container-fluid">
+        <div className="container-fluid ">
             <Barra/>
-            <div className="row">
+            <div className="row vh-100">
                 <div className="col-xxl-2 sidebar">
                     <Sidebar/>
                 </div>
